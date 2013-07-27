@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Learn Java!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css">
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
+    
+    <style type="text/css">
+	.map_image { display: block; width: 1000px; height: 1000px; position: relative; background-position: 0 0; background-repeat: no-repeat; }
+	.map_image .map_link { display: block; position: absolute; text-indent: -999em; overflow: hidden; }
+	.map_image #map_link_0 { width: 53px; height: 53px; top: 40px; left: 200px; }
+	.map_image #map_link_1 { width: 33px; height: 46px; top: 64px; left: 291px; }
+    </style>
+</head>
+
+
+<body>
+    <div></div>
+    <img class="map_image" id="clock" src="images/clockface.jpg" alt="" usemap="lessons">
+    
+    <map name="lessons" class="maparea">
+        <area class="maparea" shape="rect" coords="644,140,735,215" alt="1" href="" onmouseover="popover(this)">
+        <area shape="rect" coords="758,283,869,363" alt="2" href="">
+        <area shape="rect" coords="825,457,900,537" alt="3" href="">
+        <area shape="rect" coords="784,638,851,703" alt="4" href="">
+        <area shape="rect" coords="642,787,721,851" alt="5" href="">
+        <area shape="rect" coords="466,831,544,901" alt="6" href="">
+        <area shape="rect" coords="279,787,353,850" alt="7" href="">
+        <area shape="rect" coords="138,640,226,706" alt="8" href="">
+        <area shape="rect" coords="105,474,178,535" alt="9" href="">
+        <area shape="rect" coords="150,290,231,350" alt="10" href="">
+        <area shape="rect" coords="275,151,352,212" alt="11" href="">
+        <area shape="rect" coords="443,101,554,160" alt="12" href="">
+    </map>
+
+<script>
+function popover() {
+$('.maparea').popover(options)
+}
+</script>
+</div>
+            
+    
+</body>
+</html>
