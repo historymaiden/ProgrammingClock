@@ -4,44 +4,36 @@
 <head>
     <title>Learn Java!</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/bootstrap.min.css">
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    
-    <style type="text/css">
-	.map_image { display: block; width: 1000px; height: 1000px; position: relative; background-position: 0 0; background-repeat: no-repeat; }
-	.map_image .map_link { display: block; position: absolute; text-indent: -999em; overflow: hidden; }
-	.map_image #map_link_0 { width: 53px; height: 53px; top: 40px; left: 200px; }
-	.map_image #map_link_1 { width: 33px; height: 46px; top: 64px; left: 291px; }
-    </style>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        
 </head>
 
 
 <body>
-    <div></div>
-    <img class="map_image" id="clock" src="images/clockface.jpg" alt="" usemap="lessons">
+    <div>
+        <h1 style="text-align:center">Learn Java</h1>
+        <p style="text-align:center">Click on a number to learn about Java in less than a day!</p>
+    </div>
+   
+    <img  style="margin:0 180px; width:1000px; height:1000px" src="images/clockface.jpg" alt="" usemap="lessons">
     
-    <map name="lessons" class="maparea">
-        <area class="maparea" shape="rect" coords="644,140,735,215" alt="1" href="lesson1.html" onmouseover="popover(this)">
-        <area shape="rect" coords="758,283,869,363" alt="2" href="lesson2.html">
-        <area shape="rect" coords="825,457,900,537" alt="3" href="lesson3.html">
-        <area shape="rect" coords="784,638,851,703" alt="4" href="lesson4.html">
-        <area shape="rect" coords="642,787,721,851" alt="5" href="lesson5.html">
-        <area shape="rect" coords="466,831,544,901" alt="6" href="lesson6.html">
-        <area shape="rect" coords="279,787,353,850" alt="7" href="lesson7.html">
-        <area shape="rect" coords="138,640,226,706" alt="8" href="">
-        <area shape="rect" coords="105,474,178,535" alt="9" href="">
-        <area shape="rect" coords="150,290,231,350" alt="10" href="">
-        <area shape="rect" coords="275,151,352,212" alt="11" href="">
-        <area shape="rect" coords="443,101,554,160" alt="12" href="">
+    <map name="lessons">
+       <area  shape="rect" coords="644,140,735,215" alt="1" href="lesson1.html" title="Lesson 1: Getting Started">
+        <area shape="rect" coords="758,283,869,363" alt="2" href="lesson2.html" title="Lesson 2: Variables">
+        <area shape="rect" coords="825,457,900,537" alt="3" href="lesson3.html" title="Lesson 3: If Statements">
+        <area shape="rect" coords="784,638,851,703" alt="4" href="lesson4.html" title="Lesson 4: If...Else Statements">
+        <area shape="rect" coords="642,787,721,851" alt="5" href="lesson5.html" title="Lesson 5: Boolean Values">
+        <area shape="rect" coords="466,831,544,901" alt="6" href="lesson6.html" title="Lesson 6: While Loops">
+        <area shape="rect" coords="279,787,353,850" alt="7" href="lesson7.html" title="Lesson 7: Java Arrays">
+        <area shape="rect" coords="138,640,226,706" alt="8" href="lesson8.html" title="Lesson 8: Arrays and Loops">
+        <area shape="rect" coords="105,474,178,535" alt="9" href="lesson9.html" title="Lesson 9: Multi-dimensional Arrays">
+        <area shape="rect" coords="150,290,231,350" alt="10" href="lesson10.html" title="Lesson 10: Java Method - Passing Values to Methods">
+        <area shape="rect" coords="275,151,352,212" alt="11" href="lesson11.html" title="Lesson 11: Error Handling and Exceptions">
+        <area shape="rect" coords="443,101,554,160" alt="12" href="lesson12.html" title="Lesson 12: Java and Inheritance">
     </map>
 
-<script>
-function popover() {
-$('.maparea').popover(options)
-}
-</script>
 </div>
+<Script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js#sthash.mMtXnt7D.dpuf"></Script>
             
     
 </body>
